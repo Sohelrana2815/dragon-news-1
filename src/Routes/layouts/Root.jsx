@@ -2,7 +2,7 @@ import { Outlet } from "react-router-dom";
 
 const Root = () => {
   return (
-    <div>
+    <div className="lg:max-w-[1440px] mx-auto font-poppins">
       <Outlet></Outlet>
     </div>
   );
