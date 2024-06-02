@@ -3,6 +3,9 @@ import { FaGithub } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa6";
 import { FaTwitter } from "react-icons/fa";
 import instagram from "../../../assets/Instagram.png";
+import qzone1 from "../../../assets/qZone1.png";
+import qzone2 from "../../../assets/qZone2.png";
+import qzone3 from "../../../assets/qZone3.png";
 const RightSideNav = () => {
   return (
     <div>
@@ -41,6 +44,13 @@ const RightSideNav = () => {
             <img className="bg-white" src={instagram} alt="" />
             Instagram
           </a>
+        </div>
+        {/* q zone */}
+        <div className="p-4 space-y-2 mt-10">
+          <h2 className="text-2xl">Q-zone</h2>
+          <img src={qzone1} alt="" />
+          <img src={qzone2} alt="" />
+          <img src={qzone3} alt="" />
         </div>
       </div>
     </div>
