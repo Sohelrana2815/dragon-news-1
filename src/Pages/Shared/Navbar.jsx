@@ -18,6 +18,11 @@ const Navbar = () => {
           Career
         </NavLink>
       </li>
+      <li>
+        <NavLink className="text-lg font-normal" to="/login">
+          Login
+        </NavLink>
+      </li>
     </>
   );
   return (
